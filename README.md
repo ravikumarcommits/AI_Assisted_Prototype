@@ -1,10 +1,9 @@
 # AI_Assisted_Prototype
 
-**CHEF - AI Assisted Prototype**  
-**Convenient, Healthy, Economical Food**  
+**CHEF - Convenient, Healthy, Economical Food**  
 **Prepared by: Ravi Kumar Agarwal**  
 ________________________________________
-**Table of Contents**
+## **Table of Contents**
 1.	Problem Statement
 2.	Solution
 3.	Prototype Overview
@@ -21,51 +20,51 @@ ________________________________________
 14.	User Roles Table
 15.	Pages Created
 ________________________________________
-**Problem Statement**  
+## **Problem Statement**  
 People living in large metropolitan cities often struggle to find food that is healthy, affordable, and convenient all at the same time. Most fast-food options fall into only one or two of these categories:  
 •	Some are affordable but unhealthy.  
 •	Others are healthy but too expensive.  
 •	A few may be healthy and affordable, but not convenient for people with busy working schedules.  
 
-**Solution**     
+## **Solution**     
 To address this gap, CHEF, which stands for Convenient, Healthy, Economical Food, is testing a solution by launching a food cart outside the Indiana University campus. They created a simple MVP prototype that allows customers to scan a QR code and order from three healthy salad options directly from their phone.
 This AI-assisted prototype aims to validate whether their concept can meet the needs of people seeking quick, nutritious, and reasonably priced meals.
 Prototype Overview
 The user can click the "Pre-order Now" button for any of the three salad options. In the background, every click is recorded and can later be viewed in the Admin Dashboard.
 This data helps the CHEF team test, evaluate, and refine their product or concept before moving into full-scale development.
 
-**Prototype Overview**  
+## **Prototype Overview**  
 The user can click the "Pre-order Now" button for any of the three salad options. In the background, every click is recorded and can later be viewed in the Admin Dashboard.
 This data helps the CHEF team test, evaluate, and refine their product or concept before moving into full-scale development.  
 
-**Prototype URL**  
+## **Prototype URL**  
 The prototype is accessible at: https://sprout-ready-meals.lovable.app/  
 
-**QR Code Access**  
+## **QR Code Access**  
 The following QR code could be displayed at a conference/event, where people can use their phones to scan the QR code which would take them to the CHEF prototype landing page.  
 
 <img width="284" height="267" alt="image" src="https://github.com/user-attachments/assets/cbb86e7a-e07b-465c-be71-46be64bbeb33" />  
 
 Figure 1: QR Code for accessing the CHEF prototype 
 
-**Home Page**  
+## **Home Page**  
 The home page displays the three salad options available for pre-order, with clear images and descriptions of each healthy meal choice.  
 
 <img width="672" height="378" alt="image" src="https://github.com/user-attachments/assets/eeb566ca-9ac8-4835-9be2-ce0a9743fc56" />  
 
 Figure 2: Home page of the CHEF website showing salad options  
 
-**Account Sign-Up Page**  
+## **Account Sign-Up Page**  
 First-time users can create an account to access the ordering system and track their preferences.  
 
-**Sign-Up Screen**  
+## **Sign-Up Screen**  
 The registration interface allows new users to create their account credentials.  
 
 <img width="401" height="332" alt="image" src="https://github.com/user-attachments/assets/64a446bc-1e11-4bd2-905d-e461440e91fa" />  
 
 Figure 3: Sign-up screen for new user registration  
 
-**Invalid Credentials Error**  
+## **Invalid Credentials Error**  
 When a user tries to log in with invalid credentials, an error is thrown that says "invalid credentials" to inform the user of the authentication failure.  
 
 <img width="565" height="390" alt="image" src="https://github.com/user-attachments/assets/2ba81e62-cb33-40f6-bcbe-d5900cb537b2" />  
@@ -73,7 +72,7 @@ When a user tries to log in with invalid credentials, an error is thrown that sa
 Figure 4: Invalid credentials error message  
 
 
-**Admin Dashboard**  
+## **Admin Dashboard**  
 The number of clicks on the pre-order now button for each salad option is tracked and displayed on the admin dashboard. This provides real-time analytics on customer preferences and engagement.  
 
 
@@ -82,7 +81,7 @@ The number of clicks on the pre-order now button for each salad option is tracke
 Figure 5: Admin dashboard showing pre-order analytics  
 
 
-**Database API Integration**  
+## **Database API Integration**  
 Each click on the pre-order button for each salad type is stored in the database, and from the database, it is displayed on the admin dashboard via the GET API.  
 
 
@@ -91,7 +90,7 @@ Each click on the pre-order button for each salad type is stored in the database
 
 Figure 6: Database API integration for retrieving pre-order data  
 
-**Database Structure**  
+## **Database Structure**  
 The database has two tables: (i) pre_orders and (ii) user_roles.  
 
 
@@ -100,7 +99,7 @@ The database has two tables: (i) pre_orders and (ii) user_roles.
 
 Figure 7: Database structure showing both tables  
 
-**Pre-Orders Table**
+## **Pre-Orders Table**
 The pre_orders table columns include:  
 •	id - unique identifier for each pre-order  
 •	salad_name - name of the selected salad option  
@@ -110,7 +109,7 @@ The pre_orders table columns include:
 
 Figure 8: Pre-orders table structure and sample data  
 
-**User Roles Table**  
+## **User Roles Table**  
 The user_roles table columns include:  
 •	id - unique identifier for each role assignment  
 •	user_id - reference to the user  
@@ -122,7 +121,7 @@ The user_roles table columns include:
 
 Figure 9: User roles table structure  
 
-**Pages Created**  
+## **Pages Created**  
 The following pages were created as part of the prototype:  
 •	/signin - Login page  
 https://sprout-ready-meals.lovable.app/signin  
@@ -135,7 +134,7 @@ https://sprout-ready-meals.lovable.app/admin
 (this is accessible only after login with valid admin credentials)  
 ________________________________________  
 
-**Thank You**  
+## **Thank You !**  
 Thank you for reading this document. I appreciate your time and attention to the CHEF AI-assisted prototype project. This innovative solution demonstrates how technology can bridge the gap between health, affordability, and convenience in urban food services.
 
 
