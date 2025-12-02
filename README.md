@@ -1,2 +1,2 @@
 # AI_Assisted_Prototype
-file/AI Assisted Prototype.docx
+file/AI_Assisted_Prototype.docx
